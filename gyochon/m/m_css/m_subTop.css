@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*서브탑*/
+
+
+/*subTop01 교촌마을*/
+.subTop01{}
+.subTop01 h2{
+    padding:20px 0;
+    text-align: center;
+    color:#37465b;
+    font-size: 25px;
+    font-weight:;
+}
+
+.top01Btn{
+    width:calc(100% - 20px);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.top01Btn li{
+    width:50%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 13px;
+    float:left;
+    background:#ccc;
+    border:1px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.top01Btn li a{
+    display: block;
+    color:#222;
+}
+
+
+
+/*subTop02 체험장*/
+.subTop02{}
+.subTop02 h2{
+    padding:20px 0;
+    text-align: center;
+    color:#37465b;
+    font-size: 25px;
+    font-weight:;
+}
+.top02Tit{
+    font-size: 15px;
+    display: none;
+}
+
+.top02Btn{
+    width:calc(100% - 20px);
+    height:50px;
+    line-height: 50px;
+    margin: 0 auto;
+    background:#ddd url(../m_images/m_common/arrow_bottom02.png) no-repeat right center;
+    text-align: center;
+    position: relative;
+}
+.top02Btn a{
+    display: block;
+    color:#222;
+}
+.top02BtnList{
+    width:100%;
+    padding:20px 0;
+    background:rgba(255,255,255,0.9);
+    top:50px;
+    position: absolute;
+    display: none;
+}
+.top02BtnList li{
+    padding-bottom: 20px;
+    font-size:13px;
+    line-height: normal;
+}
+.top02BtnList li a{
+    display: block;
+    color:#222;
+}
+
+    /*subTop02 버튼호버*/
+.top02Btn:hover .top02BtnList{
+    display: block;
+}
+
+
+/*subTop03 프로그램*/
+.subTop03{}
+.subTop03 h2{
+    padding:20px 0;
+    text-align: center;
+    color:#37465b;
+    font-size: 25px;
+    font-weight:;
+}
+
+.top03Btn{
+    width:calc(100% - 20px);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.top03Btn li{
+    width:50%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 13px;
+    float:left;
+    background:#ccc;
+    border:1px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.top03Btn li a{
+    display: block;
+    color:#222;
+}
+
+
+
+
+

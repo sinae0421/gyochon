@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+
+.top02Tit{
+    display: none;
+}
+.top02Tit.tit02{
+    display: block;
+}
+
+
+/*토기공방&토기가마*/
+.experience{}
+.exCon{}
+.exCon img{
+    display: block;
+    width:calc(100% - 50%);
+    margin: 20px auto;
+}
+.exConSlider{
+    height:300px;
+    text-indent: -9999px;
+    background:url(../m_images/m_sub/sub02_Experience01.jpg) no-repeat center;
+    background-size:auto 100%;
+}
+
+
+/*이용안내*/
+.useGuide,.charge{
+    width:calc(100% - 20px);
+    margin:0 auto;
+    color:#222;
+}
+.useGuide h3{
+    color:#5b85ca;
+    padding:30px 0 15px 0;
+    font-size: 20px;
+}
+.useGuide h3:before{
+    content: "";
+    display: block;
+    width:5px;
+    height:5px;
+    background:#5b85ca;
+    margin-bottom:3px;
+}
+
+.useGuide dl{
+    height:30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 13px;
+    border-bottom:1px solid #acacac;
+}
+
+
+.useGuide dl dt{
+    width:100px;
+    height:100%;
+    padding-left:10px;
+    font-weight: 700;
+    background:#ddd;
+    float:left;
+}
+.useGuide dl dd{
+    padding-left:10px;
+    float:left;
+}
+
+
+    /*첫번째라인 컬러변경/dl 높이변경*/
+.line{
+    border-top:1px solid #5b85ca;
+}
+.useGuide .height{
+    height:90px;
+}
+.useGuide .height dt{
+    line-height: 90px;
+}
+
+
+/*요금안내*/
+.charge{
+    padding-bottom: 50px;
+}
+.charge h3{
+    color:#5b85ca;
+    padding:30px 0 15px 0;
+    font-size: 20px;
+}
+.charge h3:before{
+    content: "";
+    display: block;
+    width:5px;
+    height:5px;
+    background:#5b85ca;
+    margin-bottom:3px;
+}
+
+.charge dl{
+    text-align: center;
+    font-size: 12px;
+    border-right:1px solid #acacac;
+    border-top:1px solid #5b85ca;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    float:left;
+}
+.charge dl.last{
+    border-right:0;
+}
+.charge dl dt{
+    height:30px;
+    line-height: 30px;
+    background:#ddd;
+    font-weight: 700;
+}
+.charge dl dd{
+    height:30px;
+    line-height: 30px;
+    border-bottom:1px solid #acacac;
+}
+.charge p{
+    font-size: 12px;
+    color:#666;
+}
+    /*dl 너비*/
+.wid01{
+    width:21%;
+}
+.wid02,.wid03,.wid04{
+    width:18%;
+}
+.wid05{
+    width:25%;
+}
+.charge .wid05 dd{
+    line-height: 16px;
+    font-size: 11px;
+}
+
+
+

@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+.top01Btn li:nth-child(2){
+    background: #96bbb3;
+}
+.top01Btn li:nth-child(2) a{
+    color:#fff;
+    font-weight: 700;
+}
+
+
+/*최부자집 내용*/
+.choiFamily div{
+    margin-bottom: 50px;
+}
+.choiFamily h3{
+    width:calc(100% - 20px);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color:#37465b;
+    font-size: 20px;
+}
+.choiFamily h3:before{
+    content: "";
+    display: block;
+    width:5px;
+    height:5px;
+    background:#37465b;
+    margin-bottom:3px;
+}
+.choiFamily p{
+    width:calc(100% - 20px);
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 25px;
+}
+.choiFamily img{
+    width:100%;
+}
+
+
+
+/*최부자집 12대 가계*/
+.choiFamilyLine img{
+    margin-bottom:15px;
+}
+
+
+
+/*육연/육훈*/
+.sixWords01{}
+.sixWords02{}
+
+
+
+/*최부자집 일화*/
+.choiFamily
+.choiStoryTit{
+    font-size:16px;
+    font-weight: 700;
+    color:#a05113;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+
+
+/*경주향교와 최부자집*/
+.choiASchool{}
+
+
+

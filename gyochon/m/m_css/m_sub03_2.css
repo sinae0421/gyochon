@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+
+.top03Btn li:last-child{
+    background: #eca39e;
+}
+.top03Btn li:last-child a{
+    color:#fff;
+    font-weight: 700;
+}
+
+
+/*프로그램 내용*/
+.program{
+    width:calc(100% - 20px);
+    margin: 0 auto;
+}
+.program h3{
+    margin-bottom: 15px;
+    color:#5b85ca;
+    font-size: 20px;
+}
+.program h3:before{
+    content: "";
+    display: block;
+    width:5px;
+    height:5px;
+    background:#5b85ca;
+    margin-bottom:3px;
+}
+.program p{
+    font-size: 14px;
+    color:#222;
+    line-height: 25px;
+}
+.program div{
+    margin-bottom: 30px;
+}
+
+
+/*공연/체험/전시*/
+/*공연*/
+.perForm{}
+.perForm img{
+    width:100%;
+    margin-bottom: 15px;
+}
+.perForm p{
+    margin-bottom: 30px;
+}
+.perForm p span{
+    font-weight: 800;
+}
+    /*공연이미지*/
+.perFormView{}
+.perFormView li{
+    width:calc(50% - 5px);
+    margin-right:10px;
+    float:left;
+}
+.perFormView li:nth-child(2n){
+    margin-right: 0;
+}
+.perFormView li img{
+    display: block;
+    margin-bottom: 5px;
+}
+.perFormView li p{
+    text-align: center;
+    line-height: normal;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+
+/*체험*/
+.wedding{}
+.wedding p{
+    margin-bottom: 20px;
+}
+.wedding .weddingTit{
+    font-size:20px;
+    font-style: italic;
+    color:#37465b;
+}
+.wedding .fontSmall{
+    font-size: 13px;
+}
+    /*전통혼례이미지*/
+.weddingView{}
+.weddingView li{
+    width:calc(50% - 5px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float:left;
+}
+.weddingView li:nth-child(2n){
+    margin-right: 0;
+}
+.weddingView li img{
+    width:100%;
+    display: block;
+}
+
+
+/*전시*/
+.exhibit{
+    padding-bottom: 20px;
+}
+.exhibit dl{
+    text-align: center;
+    font-size: 13px;
+    float:left;
+    border-top:1px solid #5b85ca;
+    border-bottom:1px solid #acacac;
+    box-sizing: border-box;
+}
+.exhibit03{
+    border-left:1px solid #acacac;
+    border-right:1px solid #acacac;
+}
+.exhibit dl dt{
+    height:30px;
+    line-height: 30px;
+    background:#ddd;
+    font-weight: 700;
+}
+.exhibit dl dd{
+    height:130px;
+    line-height:130px;
+}
+
+
+    /*dl width/컬러/높이/행간조절*/
+.exhibit .exhibit01{
+    width:12%;
+}
+.exhibit .exhibit02{
+    width:22%;
+}
+.exhibit .exhibit03{
+    width:18%;
+}
+.exhibit .exhibit04{
+    width:48%;
+}
+
+
+.exhibit .exhibit01 dt{
+    background:#97cdc1;
+}
+.exhibit .exhibit01 dd{
+    background:#ddd;
+}
+.exhibit .exhibit04 dd{
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
